@@ -1,2 +1,2 @@
 # ds-utils
-Repo for data structures' operations
+Repo for data structure operations
