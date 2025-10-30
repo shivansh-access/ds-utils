@@ -17,7 +17,15 @@ def print_last_element_of_the_array(input_arr):
     print(f"Printing the last element: {input_arr[len(input_arr) -1]}")
 
 
+def print_all_the_elements_of_an_array(input_array):
+    print("printing all the elements of an array")
+    for i in range (0, len(input_array)):
+        print(input_array[i])
+
+
+
 #print(print_first_element_of_the_array("5" "10"))
 #print_array_elements(["I", "am", "ready"])
 #print_array_elements([11, 32, 42, 90, 22, 10])
 #print_last_element_of_the_array([1, 10, 16]) 
+#print_all_the_elements_of_an_array([6, 1, 10])
