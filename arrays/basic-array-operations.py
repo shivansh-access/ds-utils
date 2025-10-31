@@ -22,6 +22,15 @@ def print_all_the_elements_of_an_array(input_array):
     for i in range (0, len(input_array)):
         print(input_array[i])
 
+def check_if_array_size_is_greater_than_five(input_array):
+    print()
+    size = len(input_array)
+    if size > 5:
+        return  True
+    else:
+        return False
+
+
 
 
 #print(print_first_element_of_the_array("5" "10"))
@@ -29,3 +38,5 @@ def print_all_the_elements_of_an_array(input_array):
 #print_array_elements([11, 32, 42, 90, 22, 10])
 #print_last_element_of_the_array([1, 10, 16]) 
 #print_all_the_elements_of_an_array([6, 1, 10])
+#print(f"Array size is greater than 5? = {check_if_array_size_is_greater_than_five([5, 7, 8, 7])}")
+#print(f"Array size is greater than 5? = {check_if_array_size_is_greater_than_five([5, 7, 8, 7, 9, 2, 0])}")       
