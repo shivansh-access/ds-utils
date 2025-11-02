@@ -43,7 +43,21 @@ def check_if_the_array_size_is_greater_than_target_short_version(input_array, ta
     return len(input_array) > target
 
 
-     
+def sum_of_elements_in_array(input_array):
+    result = 0
+    for i in range (0, len(input_array)):
+        result = result + input_array[i]
+    return result
+
+
+def product_of_elements_in_array(input_array):
+    result = 1
+    for x in range(0, len(input_array)):
+        result = result * input_array[x]
+    return result    
+
+
+
 #print(print_first_element_of_the_array("5" "10"))
 #print_array_elements(["I", "am", "ready"])
 #print_array_elements([11, 32, 42, 90, 22, 10])
@@ -53,3 +67,5 @@ def check_if_the_array_size_is_greater_than_target_short_version(input_array, ta
 #print(f"Array size is greater than 5? = {check_if_array_size_is_greater_than_five([5, 7, 8, 7, 9, 2, 0])}")
 #print(f"Array size greater than the target? :{check_if_the_array_size_is_greater_than_target([5, 7, 9, 7, 4, 6], 4)}")
 #print(f"Array size greater than the target? :{check_if_the_array_size_is_greater_than_target_short_version([5, 7, 9, 7, 4, 6], 4)}")
+#print(f"The sum of the elments in array: {sum_of_elements_in_array([0, 9, 4, 3, 6, 8])}")
+#print(f"The product of the elements in array: {product_of_elements_in_array([5, 6])}")
