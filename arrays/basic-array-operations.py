@@ -54,10 +54,28 @@ def product_of_elements_in_array(input_array):
     result = 1
     for x in range(0, len(input_array)):
         result = result * input_array[x]
-    return result    
+    return result
 
 
+def check_if_array_contains_5(input_array):
+    for x in range(0, len(input_array)):
+        v = input_array[x]
+        if v == 5:
+            return True
+    return False
 
+        
+def check_if_array_contains_target(input_array, target):
+    v = target 
+    for i in range(0 , len(input_array)):
+        if v == input_array[i]:
+            return True
+    else:
+        return False     
+
+
+#print(check_if_array_contains_target([6, 8, 4 ,7, 3], 7))
+#print(check_if_array_contains_5([8, 6, 4, 0, 4, 2, 5, 10, 12, 2]))
 #print(print_first_element_of_the_array("5" "10"))
 #print_array_elements(["I", "am", "ready"])
 #print_array_elements([11, 32, 42, 90, 22, 10])
@@ -70,3 +88,4 @@ def product_of_elements_in_array(input_array):
 #print(f"The sum of the elments in array: {sum_of_elements_in_array([0, 9, 4, 3, 6, 8])}")
 #print(f"The product of the elements in array: {product_of_elements_in_array([5, 6])}")
 #print(f"product of_elements in array: {product_of_elements_in_array([5, 10, 10])}")
+#print(f"checking for {x} index having value as {v}")
