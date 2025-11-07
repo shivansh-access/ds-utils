@@ -66,13 +66,13 @@ def check_if_array_contains_5(input_array):
 
         
 def check_if_array_contains_target(input_array, target):
-    for i in range(0 , len(input_array)):
+     for i in range(0 , len(input_array)):
         if target == input_array[i]:
             return True
-    return False     
+     return False     
 
 
-print(check_if_array_contains_target([6, 8, 4, 7, 3], 17))
+#print(check_if_array_contains_target([6, 8, 4, 7, 3], 17))
 #print(check_if_array_contains_5([8, 6, 4, 0, 4, 2, 5, 10, 12, 2]))
 #print(print_first_element_of_the_array("5" "10"))
 #print_array_elements(["I", "am", "ready"])
