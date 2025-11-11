@@ -69,9 +69,19 @@ def check_if_array_contains_target(input_array, target):
     for i in range(0 , len(input_array)):
         if target == input_array[i]:
             return True
-    return False     
+    return False
 
 
+def create_array_based_on_target(input_arr, target):
+    
+    output_arr = [] 
+    for i in range(0, len(input_arr)):
+         if input_arr[i] > target:
+             output_arr.append(input_arr[i])
+    return output_arr         
+            
+
+print(create_array_based_on_target([7, 9, 4, 7, 90, 2, 6], 5))
 #print(check_if_array_contains_target([6, 8, 4, 7, 3], 17))
 #print(check_if_array_contains_5([8, 6, 4, 0, 4, 2, 5, 10, 12, 2]))
 #print(print_first_element_of_the_array("5" "10"))
