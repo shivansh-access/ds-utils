@@ -96,5 +96,5 @@ def create_array_based_on_target(input_arr, target):
 #print(f"Array size greater than the target? :{check_if_the_array_size_is_greater_than_target_short_version([5, 7, 9, 7, 4, 6], 4)}")
 #print(f"The sum of the elments in array: {sum_of_elements_in_array([0, 9, 4, 3, 6, 8])}")
 #print(f"The product of the elements in array: {product_of_elements_in_array([5, 6])}")
-#print(f"product of_elements in array: {product_of_elements_in_array([5, 10, 10, 25])}")
+#print(f"product of_elements in array: {product_of_elements_in_array([2, 10, 10, 25])}")
 #print(f"checking for {x} index having value as {v}"
