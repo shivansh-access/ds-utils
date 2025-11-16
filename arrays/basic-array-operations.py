@@ -82,6 +82,9 @@ def create_array_based_on_target(input_arr, target):
 
 
 
+
+
+
 #print(create_array_based_on_target([7, 9, 4, 7, 90, 2, 6], 5))
 #print(check_if_array_contains_target([6, 8, 4, 7, 3], 17))
 #print(check_if_array_contains_5([8, 6, 4, 0, 4, 2, 5, 10, 12, 2]))
